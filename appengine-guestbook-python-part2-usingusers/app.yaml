@@ -1,0 +1,9 @@
+application: infinite-scale-demo
+version: 0-2
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: hellouniverse.application
